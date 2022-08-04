@@ -1,0 +1,51 @@
+.movieList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.movieCard {
+  display: flex;
+  margin-left: 10px;
+}
+
+.movieInfo {
+  padding-left: 30px;
+  background-color: rgba(128, 128, 128, 0.651);
+}
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.61;
+  letter-spacing: 0.06em;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.inactive {
+  margin-right: 30px;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #a9b5ef;
+}
+
+.active,
+.inactive:hover {
+  color: #2196f3;
+  margin-right: 30px;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}

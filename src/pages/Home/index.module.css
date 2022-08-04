@@ -1,0 +1,18 @@
+.hero{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.61;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #2196f3;
+    width: 290px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}

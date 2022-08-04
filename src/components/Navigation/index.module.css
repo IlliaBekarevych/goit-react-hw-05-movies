@@ -1,0 +1,18 @@
+.inactive {
+  margin-right: 8px;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #a9b5ef;
+}
+
+.active,
+.inactive:hover {
+  color: #2196f3;
+  margin-right: 8px;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
