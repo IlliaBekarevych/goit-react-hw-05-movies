@@ -65,7 +65,16 @@ function MovieCard({ movie }) {
 }
 
 MovieCard.propTypes = {
-  movie: PropTypes.object,
+  movie: PropTypes.shape({
+    poster_path: PropTypes.string,
+    title: PropTypes.string.isRequired,
+    name: PropTypes.string,
+    release_date: PropTypes.string.isRequired,
+    vote_average: PropTypes.number.isRequired,
+    genres: PropTypes.array.isRequired,
+    runtime:  PropTypes.number.isRequired,
+    overview: PropTypes.string.isRequired,
+  }),
 };
 
 export default MovieCard;

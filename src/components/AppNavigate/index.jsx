@@ -1,11 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import Navigation from 'components/Navigation';
 import Button from 'components/Button';
-import s from './index.module.css'
+import s from './index.module.css';
 
 function AppNavigate() {
   const navigate = useNavigate();
-
   const clickGoBack = () => {
     if (window.history.state && window.history.state.idx > 0) {
       navigate(-1);

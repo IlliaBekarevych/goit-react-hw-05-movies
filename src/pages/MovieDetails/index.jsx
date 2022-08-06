@@ -8,6 +8,7 @@ function MovieDetails() {
   const [movie, setMovie] = useState(null);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
+ 
 
   useEffect(() => {
     if (movieId === '') {

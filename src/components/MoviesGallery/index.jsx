@@ -23,7 +23,14 @@ function MoviesGallery({ moviesList }) {
 }
 
 MoviesGallery.propTypes = {
-  moviesList: PropTypes.array.isRequired,
+  moviesList: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      title: PropTypes.string,
+      name: PropTypes.string,
+      poster_path: PropTypes.string,
+    })
+  ),
 };
 
 export default MoviesGallery;
